@@ -77,12 +77,52 @@
     display: block;
     background-color: lightpink;
     margin-left: 190px;
-    padding-right: 200px;
+    padding-left: 200px;
     margin-top: -1000px;
     height: 3000px;
     }
     .middlebar-button {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row-reverse;
-    
+    padding: 0px 0px 24px 24px;
+    row-gap: 48px;
     }
+    .sidebox {
+    sidebar-offset: 24px;
+    flex-direction: right;
+    diplay: flex;
+    height: 1000px;
+    width: 400px;
+    background-color: lightgreen;
+    margin-top: 40px;
+    padding-top: 20px;
+
+    }
+    .sidebar-icon {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    margin-top: -58px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .penguin {
+    display: flex;
+    width: 40px;
+    height: 40px;
+
+    }
+    .tiny {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    }
+
+    .leaderboard-update {
+    display: block;
+    background-color: red;
+    height: 100px;
+    width: 80px;
+    }
+
