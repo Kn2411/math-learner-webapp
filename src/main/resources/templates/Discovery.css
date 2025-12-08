@@ -28,7 +28,6 @@
     nav a{
     text-decoration: none;
     color: #FFFFFF;
-    background:
     padding: 0 1.5rem;
     }
     .nav-item {
@@ -231,6 +230,21 @@
     flex-direction: column;
     padding-top: 3rem;
     align-items: center;
+    text-decoration: none;
+    }
+    .btn-signup {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #70ACBD;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    }
+    .btn-signup:hover {
+    background: #70ACBD;
+    color: white;
     }
 
     @media screen and (max-width: 850px) {
@@ -238,4 +252,3 @@
     grid-template-columns: 1fr;
     }
     }
-
