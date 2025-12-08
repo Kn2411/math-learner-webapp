@@ -43,4 +43,31 @@ height: 100%;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
+justify-content: space-between;
+color: #2A3D5E;
+border-radius: 5px;
+background-color: white;
+}
+.calendar::before, .calendar::after {
+content: "";
+position: absolute;
+top: 50%;
+left: 100%;
+width: 12px;
+height: 97%;
+border-radius: 0 5px 5px 0;
+}
+.calendar::before {
+height: 94%;
+left: calc(100% +12px);
+background-color: ##2A3D5E;
+}
+.calendar .month {
+width: 100%;
+height: 15px;
+display: flex;
+justify-content: space-between;
+padding: 0 50px;
+font-size: 1.2rem;
+
 }
