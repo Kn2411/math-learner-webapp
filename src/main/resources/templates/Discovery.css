@@ -80,8 +80,9 @@
     }
     .explore-course {
     background: #020617;
-    padding: 4rem 2rem;
-    height: 2000px;
+    padding: 12rem 2rem;
+    height: 500px;
+
     }
     .explore-container {
     background: #020617;
@@ -97,12 +98,13 @@
     min-height: 85px;
     row-gap: 36px;
     text-size-adjust: 100%;
+
     }
     h2 {
     color: #FFFFFF;
     text-align: center;
     letter-spacing: .75px;
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: 500;
     }
     .course-descript {
@@ -114,9 +116,122 @@
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
-    
+    row-gap: 2rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
     }
+    .class-tags {
+    background: #70ACBD;
+    color: white;
+    }
+    .why {
+    background: #020617;
+    }
+    .reason-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 2rem;
+    height: 700px;
+    box-sizing: border-box
+    align-items: center;
+    }
+    .reason {
+    align-items: center;
 
+
+    }
+    .reason-title {
+    display: block;
+    box-sizing: border-box;
+    padding: 2rem 0rem;
+    font-size: 2rem;
+    }
+    .reason-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    column-gap: 10px;
+    padding-top: 2rem;
+    }
+    .space {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex: 56px;
+    font-stretch: 100%;
+    vertical-align: baseline;
+    height: 50px;
+    }
+    .r1, .r2, .r3 {
+    display: block;
+    flex-direction: column;
+    align-items: flex;
+    color: white;
+    }
+    .r1-container, .r2-container, .r3-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+    box-sizing: border-box;
+    }
+    .h3d {
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 1.25px;
+    }
+    .h3-d {
+    font-family: sans-serif;
+    }
+    .h4d {
+    font-family: sans-serif;
+    }
+    .practice-container {
+    background: #020617;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    }
+    .skill-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center
+    row-gap: 100px;
+    }
+    .skill {
+    color: white;
+    padding-top: 45px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 750px;
+    }
+    .collaborate-container {
+    display: flex;
+    flex-direction: column;
+    background: #020617;
+    height: 400px;
+    }
+    .join-container {
+    background: #020617;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    }
+    .button-sign {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    align-items: center;
+    }
     @media screen and (max-width: 850px) {
     .hero-container {
     grid-template-columns: 1fr;
