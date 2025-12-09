@@ -9,12 +9,12 @@
 }
 nav {
     height: 100px;
-    background: #5BA0B3;
+    background: #2A3D5E;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 max(2rem, calc((100vw - 1300px) / 2));
-    border-bottom: 4px solid #427E8F;
+    border-bottom: 4px solid #23314C;
     z-index: 10;
     position: sticky;
     top: 0;
@@ -39,7 +39,7 @@ nav a {
     gap: 1.5rem;
 }
 .hero {
-    background: #5BA0B3;
+    background: #33466E;
     padding: 4rem 0;
     height: 500px;
     display: flex;
@@ -72,13 +72,13 @@ button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: #70ACBD;
-    background: white;
+    color: white;
+    background: #2A3D5E;
     cursor: pointer;
     border-radius: 10px;
 }
 button:hover {
-    background: #70ACBD;
+    background: #23314C;
     color: white;
 }
 .explore-course, .why, .practice, .collaborate, .join {
@@ -116,7 +116,11 @@ button:hover {
     text-align: center;
 }
 .class-tags {
-    background: #70ACBD;
+    background-color: #23314C;
+    color: white;
+}
+.class-tags:hover {
+    background-color: #1C273B;
     color: white;
 }
 .reason-container {
@@ -179,14 +183,14 @@ button:hover {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: #70ACBD;
-    background: white;
+    color: white;
+    background: #23314C;
     cursor: pointer;
     border-radius: 10px;
     text-decoration: none;
 }
 .btn-signup:hover {
-    background: #70ACBD;
+    background: #1C273B;
     color: white;
 }
 
