@@ -295,13 +295,12 @@ width: 90%;
 max-height: 0;
 overflow: hidden;
 border-radius: 5px;
-background-color: white;
+background-color: #FFFFFF;
 transform: translateX(-50%);
 transition: max-height 0.5s;
 }
 .add-event-wrapper.active {
 max-height: 300px;
-background-color: white;
 }
 .add-event-header {
 width: 100%;
@@ -319,4 +318,83 @@ cursor: pointer;
 }
 .add-event-header .close:hover {
 color: var(--primary-clr);
+}
+.add-event-header .title {
+font-size: 1.2rem;
+font-weight: 500;
+}
+.add-event-body {
+width: 100%;
+height: 100%
+display: flex;
+flex-direction: column;
+gap: 5px;
+padding: 20px;
+}
+.add-event-body .add-event-input {
+width: 100%;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+}
+.add-event-body .add-event-input input{
+width: 100%;
+height: 100%;
+outline: none;
+border: none;
+border-bottom: 1px solid white;
+padding: 0 10px;
+font-size: 1rem;
+font-weight: 400;
+color: gray;
+}
+.add-event-body .add-event-input input::placeholder {
+color: lightgray;
+}
+.add-event-body .add-event-input input:focus {
+border-color: var(--primary-clr);
+}
+.add-event-body .add-event-input input:focus::placeholder {
+color: var(--primary-clr);
+}
+.add-event-footer {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}
+.add-event-btn {
+height: 40px;
+font-size: 1rem;
+font-weight: 500;
+outline: none;
+border: none;
+color: white;
+background-color: var(--primary-clr);
+border-radius: 5px;
+cursor: pointer;
+padding: 5px 10px;
+border: 1px solid var(--primary-clr);
+}
+.add-event-btn:hover {
+background-color: transparent;
+color: var(--primary-clr);
+}
+.add-event {
+position: absolute;
+bottom: 30px;
+right: 30px;
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+color: gray;
+border: 2px solid gray;
+opacity: 0.5;
+background-color: transparent;
+cursor: pointer;
 }
