@@ -72,14 +72,14 @@ button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: white;
+    color: #FFFCFA;
     background: #2A3D5E;
     cursor: pointer;
     border-radius: 10px;
 }
 button:hover {
     background: #23314C;
-    color: white;
+    color: #FFFCFA;
 }
 .explore-course, .why, .practice, .collaborate, .join {
     background: #020617;
@@ -105,7 +105,7 @@ button:hover {
 .course-title h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: white;
+    color: #FFFCFA;
 }
 .course-descript {
     font-size: 1.2rem;
@@ -117,11 +117,11 @@ button:hover {
 }
 .class-tags {
     background-color: #23314C;
-    color: white;
+    color: #FFFCFA;
 }
 .class-tags:hover {
     background-color: #1C273B;
-    color: white;
+    color: #FFFCFA;
 }
 .reason-container {
     gap: 4rem;
@@ -129,7 +129,7 @@ button:hover {
 .reason-title {
     font-size: 2.5rem;
     text-align: center;
-    color: white;
+    color: #FFFCFA;
 }
 .reason-list {
     display: flex;
@@ -141,7 +141,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: white;
+    color: #FFFCFA;
     max-width: 300px;
 }
 .r1-container, .r2-container, .r3-container {
@@ -161,7 +161,7 @@ button:hover {
 .skill-text h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: white;
+    color: #FFFCFA;
     text-align: center;
 }
 .skill {
@@ -174,7 +174,7 @@ button:hover {
 }
 .join-container h2 {
     font-size: 2.5rem;
-    color: white;
+    color: #FFFCFA;
 }
 .button-sign {
     margin-top: 2rem;
@@ -183,7 +183,7 @@ button:hover {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: white;
+    color: #FFFCFA;
     background: #23314C;
     cursor: pointer;
     border-radius: 10px;
@@ -191,7 +191,7 @@ button:hover {
 }
 .btn-signup:hover {
     background: #1C273B;
-    color: white;
+    color: #FFFCFA;
 }
 
 @media screen and (max-width: 850px) {
