@@ -1,14 +1,14 @@
 
 body {
     margin: 0;
-    background-color: #0d1117;
-    font-family: "Pixelify Sans", sans-serif;
+    background-color: #33466E;
+    font-family: Ariel, sans-serif;
     color: #fff;
 }
 
 
 .hero {
-    background: url("https://via.placeholder.com/1600x450") center/cover no-repeat;
+    background: url("https://thumbs.dreamstime.com/b/retro-pixel-art-landscape-retro-pixel-art-landscape-nostalgic-bit-game-interface-throwback-to-classic-gaming-nostalgic-401612632.jpg") center/cover no-repeat;
     padding: 80px 20px;
 }
 
@@ -21,6 +21,7 @@ body {
 .hero h1 {
     font-size: 38px;
     margin-bottom: 10px;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 .hero p {
@@ -36,6 +37,7 @@ body {
 .section-title {
     font-size: 22px;
     margin: 20px 0 10px 20px;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 .course-grid {
@@ -49,12 +51,14 @@ body {
     background-color: #131822;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease;
 }
 
 .course-card:hover {
     transform: translateY(-4px);
+    color: #B5C3D4;
+
 }
 
 .course-card img {
@@ -79,3 +83,5 @@ body {
     display: inline-block;
     margin-bottom: 6px;
 }
+
+
