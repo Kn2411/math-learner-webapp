@@ -1,5 +1,5 @@
-.jersey-10-regular {
-  font-family: "Jersey 10", sans-serif;
+.font {
+  font-family: "Pixelify Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -7,7 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding-bottom: 0;
-    font-family: "Jersey 10", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
 
 }
     nav {
