@@ -21,9 +21,11 @@ body {
     position: relative;
     width: 1200px;
     min-height: 850px;
-    margin: 0 auto;
+    margin: 0;
     color: white;
     display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
     border-radius: 10px;
     background-color: #2A3D5E;
 }
@@ -268,4 +270,53 @@ font-weight: 400;
 color: gray;
 margin-left: 15px;
 pointer-events: none;
+}
+.event::after {
+content: "✓";
+position: absolute;
+top: 50%;
+right: 0;
+font-size: 3rem;
+display: none;
+align-items: center;
+justify-content: center;
+opacity: 0.3;
+color: var(--primary-clr);
+transform: translateY(-50%);
+}
+.event:hover::after {
+display: flex;
+}
+.add-event-wrapper {
+position: absolute;
+bottom: 100px;
+left: 50%;
+width: 90%;
+max-height: 0;
+overflow: hidden;
+border-radius: 5px;
+background-color: white;
+transform: translateX(-50%);
+transition: max-height 0.5s;
+}
+.add-event-wrapper.active {
+max-height: 300px;
+background-color: white;
+}
+.add-event-header {
+width: 100%;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+color: gray;
+border-bottom: 1px solid white;
+}
+.add-event-header .close{
+font-size: 1.5rem;
+cursor: pointer;
+}
+.add-event-header .close:hover {
+color: var(--primary-clr);
 }
