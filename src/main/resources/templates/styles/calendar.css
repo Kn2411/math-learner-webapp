@@ -26,7 +26,7 @@ body {
     color: white;
     display: flex;
     border-radius: 10px;
-    background-color: #2A3D5E;
+    background: linear-gradient(90deg, #23314C, #2A3D5E, #33466E);
 }
 .left {
     width: 60%;
