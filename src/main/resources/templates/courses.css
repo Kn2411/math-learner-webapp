@@ -1,4 +1,32 @@
 
+ nav {
+    height: 100px;
+    background: #33466E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px)/2);
+    border-bottom: 4px solid #2A3D5E;
+    }
+    .logo {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 2rem;
+    }
+    nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0 1.5rem;
+    }
+    .nav-item {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    }
 body {
     margin: 0;
     background-color: #33466E;
@@ -65,6 +93,7 @@ body {
     width: 100%;
     height: 150px;
     object-fit: cover;
+    background: transparent;
 }
 
 .card-content {
