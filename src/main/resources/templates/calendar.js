@@ -80,3 +80,11 @@ todayBtn.addEventListener("click", () => {
     year = today.getFullYear();
     initCalendar();
 });
+const addEventBtn = document.querySelector(".add-event"),
+addEventContainer = document.querySelector(".add-event-wrapper"),
+addEventCloseBtn = document.querySelector(".close"),
+
+addEventBtn.addEventListener("click", () => {
+    addEventContainer.classlist.toggle("active");
+    });
+

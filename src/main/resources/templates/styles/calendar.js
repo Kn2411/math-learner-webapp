@@ -2,7 +2,10 @@ const calendar = document.querySelector(".calendar"),
     date = document.querySelector(".date"),
     daysContainer = document.querySelector(".days"),
     prev = document.querySelector(".prev"),
-    next = document.querySelector(".next");
+    next = document.querySelector(".next"),
+    addEventBtn = document.querySelector(".add-event"),
+    addEventWrapper = document.querySelector(".add-event-wrapper"),
+    addEventCloseBtn = document.querySelector(".close");
 
 let today = new Date();
 let activeDay;
@@ -49,3 +52,11 @@ function initCalendar() {
 }
 
 initCalendar();
+
+addEventBtn.addEventListener("click", () => {
+    addEventWrapper.classList.toggle("active");
+});
+
+addEventCloseBtn.addEventListener("click", () => {
+    addEventWrapper.classList.remove("active");
+});

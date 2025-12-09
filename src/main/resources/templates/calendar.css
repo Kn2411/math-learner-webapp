@@ -398,3 +398,9 @@ opacity: 0.5;
 background-color: transparent;
 cursor: pointer;
 }
+.add-event:hover {
+opacity: 1;
+}
+.add-event i {
+pointer-event: none;
+}
