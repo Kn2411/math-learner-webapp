@@ -1,67 +1,58 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<html>
-<header>
-        <meta charset="UTF-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
 
-    <link rel="stylesheet" href="homepage.css">
-</header>
 <body>
 
-<div class="sidebar">
-    <h1>Numbl</h1>
-    <div class="sidebar-button">
-        <button class="Resource-button-link">
-            <a
-                    href="Resources.html">
-                Resources
-            </a>
-        </button>
-    </div>
-    <div class="sidebar-button">
-        <button class="Contact-button-link">
-            <a href="ContactUs.html">
-                Contact us
-            </a>
-        </button>
-    </div>
-    <div class="sidebar-button">
-        <button class="Leader-button-link">
-            <a href="Leaderboard.html">
-                Leaderboard
-            </a>
-        </button>
-    </div>
-</div>
-<div class="middlebar">
-    <div class="sea-pic">
-        <img class="seapic-img" src="pic/image.png">
-    <div class="middlebar-button">
+<div class="page">
+
+
+    <div class="penguin-box">
+        <div class="speech-bubble">
+            <p id="welcome-text">Welcome back, User!</p>
+            <div class="bubble-arrow"></div>
+
         </div>
-        <div class="sidebox">
-            <div class="sidebar-icon">
-                <div class="penguin">
-                    <img src="pic/images.jpg" style="border-radius: 50%;">
-                </div>
-                <div class="tiny">
-                    <img src="pic/little-penguin.jpg" style="border-radius: 50%;">
-                </div>
-                <div class="fire">
-                    <img src="pic/ba95e6081679d9d7e8c132da5cfce1ec.svg">
-                </div>
-                <div class="heart">
-                    <img src="pic/8fdba477c56a8eeb23f0f7e67fdec6d9.svg">
-                </div>
-            </div>
-            <div class="leaderboard-update">
-                leaderboard
-            </div>
-            <div class="daily-quest"></div>
+
+
+        <div class="penguin-animation">
+            <canvas id="penguinCanvas"></canvas>
         </div>
+
+
     </div>
+
+
+    <div class="right-side">
+
+        <div class="info-card">
+            <h3>🔥 Streak</h3>
+            <p id="streak-count">5 days</p>
+        </div>
+
+        <div class="info-card">
+            <h3>📘 Currently Practicing</h3>
+            <p id="current-subject">Algebra</p>
+        </div>
+
+        <div class="info-card">
+            <h3>📅 Events</h3>
+            <p>No current events</p>
+        </div>
+
+    </div>
+
 </div>
 
+<script src="home.js"></script>
 
 </body>
 </html>
-
