@@ -9,7 +9,7 @@
 }
 nav {
     height: 100px;
-    background: white;
+    background: #33466E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,13 +25,13 @@ display: flex;
 align-items: center;
 text-align: center;}
 .logo {
-    color: #FFFFFF;
+    color: #FFFCFA;
     font-size: 2rem;
     font-weight: bold;
 }
 nav a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FFFCFA;
 }
 .nav-item {
     font-size: 1.5rem;
@@ -56,17 +56,22 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #000;
+    color: #;
     padding-top: 100px;
 }
 .column-left h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFCFA;
 }
 .column-left p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
+    color: #CBD5E1;
 }
 button {
     padding: 1rem 3rem;
@@ -76,6 +81,13 @@ button {
     background: #2A3D5E;
     cursor: pointer;
     border-radius: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    ;
+}
+.learn-more {
+letter-spacing: 2px;
 }
 button:hover {
     background: #23314C;
@@ -155,7 +167,7 @@ button:hover {
     margin-bottom: 0.5rem;
 }
 .h4d {
-    font-family: sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
     color: #CBD5E1;
 }
 .skill-text h2 {
@@ -188,6 +200,7 @@ button:hover {
     cursor: pointer;
     border-radius: 10px;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 .btn-signup:hover {
     background: #1C273B;
