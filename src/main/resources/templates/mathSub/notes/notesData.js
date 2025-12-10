@@ -266,7 +266,7 @@ c
     </ul>
 `
 
-        // Add more units when ready…
+
     },
 
     geometry: {
@@ -487,10 +487,102 @@ c
     },
 
 
-    calculus: {
+    precalculus: {
         1: `
-            <h2>1. Limits</h2>
-            <p>Approaching values, not equal to them.</p>
+            <h2>1. Intro Skills</h2>
+            <p>1.1 Multiple Representations: Represent functions as tables, graphs, and equations.</p>
+            <p>1.2 Linear Functions: Graph lines, find slope, y-intercept, and equation of a line.</p>
+            <p>1.3 Basic Factoring: Factor out GCF, trinomials, difference of squares.</p>
+        `,
+        2: `
+            <h2>2. Functions and Limits</h2>
+            <p>2.1 Function Intro: Each input has exactly one output; notation f(x).</p>
+            <p>2.2 Domain & Range Graphically: Domain = all x-values; Range = all y-values.</p>
+            <p>2.3 Limit at a Point Graphically: Value y approaches as x → a.</p>
+            <p>2.4 Limits Involving Infinity Graphically: Behavior as x → ∞ or −∞.</p>
+        `,
+        3: `
+            <h2>3. Function Analysis</h2>
+            <p>3.1 Domain & Discontinuities Algebraically: Identify where function is undefined or has holes/jumps.</p>
+            <p>3.2 Extrema: Local maxima and minima; use derivative or graph.</p>
+            <p>3.3 Piecewise Functions: Different rules for different intervals; graph each piece.</p>
+        `,
+        4: `
+            <h2>4. Function Algebra</h2>
+            <p>4.1 Transformations: Shifts, stretches, reflections of functions.</p>
+            <p>4.2 Even and Odd Functions: Even = symmetric about y-axis; Odd = symmetric about origin.</p>
+            <p>4.3 Operations with Functions: Add, subtract, multiply, divide functions.</p>
+            <p>4.4 Inverse Functions: Swap x and y; undo original function.</p>
+        `,
+        5: `
+            <h2>5. Polynomials</h2>
+            <p>5.1 Operations on Polynomials: Add, subtract, multiply polynomials.</p>
+            <p>5.2 Polynomial Division & Factor Theorem: Divide polynomials; factor theorem finds zeros.</p>
+            <p>5.3 Polynomial Graphs: End behavior = degree/sign; zeros = x-intercepts.</p>
+        `,
+        6: `
+            <h2>6. Rational Functions</h2>
+            <p>6.1 Solve Rational Equations: Multiply by LCD; check for extraneous solutions.</p>
+            <p>6.2 Rational Functions: Domain excludes zeros of denominator.</p>
+            <p>6.3 Graphing Rational Functions: Identify vertical/horizontal asymptotes; plot points.</p>
+            <p>6.4 Variation: Direct (y=kx) and inverse (y=k/x) variation relationships.</p>
+        `,
+        7: `
+            <h2>7. Exponential & Logarithmic Functions</h2>
+            <p>7.1 Exponential Functions: Growth/decay: y = a*b^x or y = a*e^(kx).</p>
+            <p>7.2 Logarithms: log_b(x) = y → b^y = x</p>
+            <p>7.3 Solve Exponential/Logarithmic Equations: Use log/exponent rules to isolate x.</p>
+        `,
+        8: `
+            <h2>8. Intro to Trigonometry</h2>
+            <p>8.1 Angles and Degrees: Measure angles in degrees.</p>
+            <p>8.2 Radians: θ (in radians) = arc length / radius.</p>
+            <p>8.3 Velocity (Angular vs Linear): ω = angular velocity, v = r·ω.</p>
+            <p>8.4 Basic Trig Functions: sin = opp/hyp, cos = adj/hyp, tan = opp/adj.</p>
+        `,
+        9: `
+            <h2>9. Unit Circle</h2>
+            <p>9.1 Reference Triangle & Reciprocal Trig: csc=1/sin, sec=1/cos, cot=1/tan.</p>
+            <p>9.2 Reference and Special Angles: 30°, 45°, 60° triangles; radians.</p>
+            <p>9.3 Evaluating Trig Functions: Use unit circle coordinates or triangles.</p>
+        `,
+        10: `
+            <h2>10. Graphing Trig Functions</h2>
+            <p>10.1 Graph Sine and Cosine: Amplitude, period, midline, phase shift.</p>
+            <p>10.2 Phase Shift: Horizontal shift of trig graph.</p>
+            <p>10.3 Reciprocal Trig Functions: Graph csc, sec, cot using asymptotes.</p>
+            <p>10.4 Inverse Trig Functions: sin⁻¹, cos⁻¹, tan⁻¹; output = angle.</p>
+        `,
+        11: `
+            <h2>11. Trig Identities</h2>
+            <p>11.1 Reciprocal Identities: csc=1/sin, sec=1/cos, cot=1/tan</p>
+            <p>11.2 Pythagorean Identities: sin²x+cos²x=1, 1+tan²x=sec²x, 1+cot²x=csc²x</p>
+            <p>11.3 Sum and Difference Identities: sin(a±b), cos(a±b) formulas</p>
+            <p>11.4 Double and Half Angle Identities: sin2x, cos2x, sin(x/2), cos(x/2)</p>
+            <p>11.5 Trig Equations: Solve using identities, factoring, or algebra.</p>
+        `,
+        12: `
+            <h2>12. Solve Triangles</h2>
+            <p>12.1 Law of Sines: a/sinA = b/sinB = c/sinC</p>
+            <p>12.2 Law of Cosines: c² = a² + b² − 2ab·cosC</p>
+            <p>12.3 Area of Triangles: ½ab·sinC</p>
+        `,
+        13: `
+            <h2>13. Coordinate Systems</h2>
+            <p>13.1 3D and Complex Planes: Points in 3D (x, y, z); complex plane = a + bi.</p>
+            <p>13.2 Polar Coordinates: (r, θ); x = rcosθ, y = rsinθ.</p>
+        `,
+        14: `
+            <h2>14. Series and Sequences</h2>
+            <p>14.1 Series and Summation: Sum notation ∑; finite and infinite series.</p>
+            <p>14.2 Arithmetic vs Geometric: Arithmetic: add constant; Geometric: multiply by ratio.</p>
+            <p>14.3 Binomial Theorem: Expand (a+b)ⁿ using combinations.</p>
+        `,
+        15: `
+            <h2>15. Calculus Intro</h2>
+            <p>15.1 Limits Analytically: lim x→a f(x) = L; compute using substitution or factoring.</p>
+            <p>15.2 Definition of the Derivative: f'(x) = lim h→0 (f(x+h)-f(x))/h</p>
+            <p>15.3 Power Rule: d/dx [xⁿ] = n·xⁿ⁻¹</p>
         `,
     }
 };
