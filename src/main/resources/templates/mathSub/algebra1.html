@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algebra 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="courseTemplate.css" />
+</head>
+
+<body>
+
+<nav class="nav">
+    <a href="courses.html"><div class="logo">Numbl</div></a>
+</nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <h1>Algebra 1</h1>
+        <p>Master the fundamentals of linear equations, functions, and essential problem-solving skills.</p>
+    </div>
+</header>
+
+<section class="unit-section">
+
+    <h2 class="section-title">Course Units</h2>
+
+    <div class="unit">
+
+        <button class="unit-toggle">1. Introduction to Algebra</button>
+
+        <div class="unit-content">
+            <a class="exercise-btn" href="#">Exercise 1</a>
+            <a class="exercise-btn" href="#">Exercise 2</a>
+            <a class="exercise-btn" href="#">Exercise 3</a>
+        </div>
+    </div>
+
+    <div class="unit">
+        <button class="unit-toggle">2. Linear Equations</button>
+        <div class="unit-content">
+            <a class="exercise-btn" href="#">Exercise 1</a>
+            <a class="exercise-btn" href="#">Exercise 2</a>
+            <a class="exercise-btn" href="#">Exercise 3</a>
+        </div>
+    </div>
+
+    <div class="unit">
+        <button class="unit-toggle">3. Functions</button>
+        <div class="unit-content">
+            <a class="exercise-btn" href="#">Exercise 1</a>
+            <a class="exercise-btn" href="#">Exercise 2</a>
+            <a class="exercise-btn" href="#">Exercise 3</a>
+        </div>
+    </div>
+
+</section>
+
+<script>
+    const toggles = document.querySelectorAll(".unit-toggle");
+
+    toggles.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const content = btn.nextElementSibling;
+            content.classList.toggle("open");
+        });
+    });
+</script>
+
+</body>
+</html>
