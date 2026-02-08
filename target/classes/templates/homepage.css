@@ -1,0 +1,137 @@
+    .body {
+    margin: 0;
+    }
+     a {
+        text-decoration: none;
+        }
+    .sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100vh;
+    background-color: lightblue;
+   padding: 10px;
+
+    margin: -10px 0px 0px -10px;
+
+    }
+    .sidebar-button {
+    font-size: 10px;
+    width: 200px;
+    height: 75px;
+    border-width: 0px;
+    border: none;
+    text-decoration: none;
+    align-items: left;
+
+    justify-content: center;
+    }
+
+    .Resource-button-link {
+    display: fixed;
+    border:none;
+    width: 200px;
+    height: 40px;
+    border-radius: 75px;
+    cursor: pointer;
+    margin-right: 20px;
+    align-items: center;
+    display: inline-block;
+
+    }
+
+    .Resource-button-link:hover {
+    background-color: #3140ED;
+    }
+
+    .Contact-button-link {
+    display: fixed;
+    text-decoration: none;
+    border: none;
+    border-radius: 75px;
+    align-items: center;
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    }
+    .Resource-button-link:hover,
+    .Contact-button-link:hover,
+    .Leader-button-link:hover {
+    border: 1px solid red;
+    }
+
+    .Leader-button-link {
+    border: none;
+    display: fixed;
+    border-radius: 75px;
+    cursor: pointer;
+    align-items: center;
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    }
+    .middlebar {
+    display: block;
+    background-color: lightpink;
+    margin-left: 190px;
+    padding-left: 1px;
+    margin-top: -1000px;
+    height: 3000px;
+    }
+    .middlebar-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 0px 24px 24px;
+    row-gap: 48px;
+    }
+    .sea-pic {
+    width: 650px;
+    height: 650px;
+    float: left;
+    }
+    .seapic-img {
+    width:100%;
+    height: 150%;
+    object-fit: contain;
+
+    }
+    .sidebox {
+    sidebar-offset: 24px;
+    flex-direction: right;
+    diplay: flex;
+    height: 1000px;
+    width: 400px;
+    background-color: lightgreen;
+    margin-top: 40px;
+    padding-top: 20px;
+
+    }
+    .sidebar-icon {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    margin-top: -58px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .penguin {
+    display: flex;
+    width: 40px;
+    height: 40px;
+
+    }
+    .tiny {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    }
+
+    .leaderboard-update {
+    display: block;
+    background-color: red;
+    height: 100px;
+    width: 80px;
+    }
+
